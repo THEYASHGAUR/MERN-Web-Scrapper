@@ -1,0 +1,51 @@
+.box{
+  border: 2px solid black;
+  margin: 20px;
+  padding: 12px;
+  gap: 10px;
+}
+button{
+  margin: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  cursor: pointer;
+  
+  
+}
+.data-row {
+    
+    margin: 100px 20px;
+    background: red;
+    /* border: 20px solid rgb(178, 33, 33); */
+    margin: -20px;
+    height: -50px;
+    text-decoration: none;
+}
+
+/* Filename - App.css*/
+/* .App {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+table {
+	border: 2px solid forestgreen;
+  margin: 20px 2px;
+	width: 1200px;
+	height: 80px;
+  
+}
+
+th {
+	border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+td {
+	padding-left: 20px;
+}
