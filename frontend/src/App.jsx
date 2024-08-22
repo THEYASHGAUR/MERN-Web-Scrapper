@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Tables from './components/Table';
+import DessertTable from './components/DesertTable';
 
 function App() {
   const [data, setData] = useState([]);
@@ -8,7 +8,7 @@ function App() {
   const [lastFetchTime, setLastFetchTime] = useState('');
 
   const fetchData = () => {
-    fetch('http://localhost:3001/api/scrape')
+    fetch('https://web-scrapper-2.onrender.com/api/scrape')
       .then(response => response.json())
       .then(data => {
         const date = new Date();
@@ -58,18 +58,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Latest Updates from University</h1>
+        <h1 className='text-blue-600'>Latest Updates from University</h1>
         <p>Last fetched: {lastFetchTime}</p>
         {loading ? (
           <p>Loading...</p>
         ) : (
           <ul>
+            <h2 className='font-bold text-3xl m-5'>Examination Notices</h2>
             {data.map((item, index) => (
               <li key={index}>
-                <Tables title={item.title} href={item.href} />
+                
+                <DessertTable title={item.title} href={item.href} />
+                
               </li>
             ))}
           </ul>
+          // <Table2 />
         )}
       </header>
     </div>

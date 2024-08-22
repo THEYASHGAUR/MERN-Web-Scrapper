@@ -23,6 +23,13 @@ button{
     height: -50px;
     text-decoration: none;
 }
+h1{
+  background-color: #e3e1e1;
+  align-items: center;
+  justify-content:right;
+  padding: 20px;
+  
+}
 
 /* Filename - App.css*/
 /* .App {

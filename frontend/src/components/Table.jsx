@@ -1,12 +1,4 @@
-// import * as React from 'react';
-// import { styled } from '@mui/material/styles';
-// import Table from '@mui/material/Table';
-// import TableBody from '@mui/material/TableBody';
-// import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-// import TableContainer from '@mui/material/TableContainer';
-// import TableHead from '@mui/material/TableHead';
-// import TableRow from '@mui/material/TableRow';
-// import Paper from '@mui/material/Paper';
+
 import PropTypes from 'prop-types';
 
 // const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -41,31 +33,6 @@ const rows = [
 export default function Tables({ title, href, dateTime }) {
   return (
     <>
-      {/* <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }} aria-label="customized table">
-
-          <TableBody>
-            {rows.map(() => (
-              <StyledTableRow className='data-row' key={title}>
-                <StyledTableCell component="th" scope="row">
-                  {title}
-                </StyledTableCell>
-                <StyledTableCell align="right">{}</StyledTableCell>
-                <StyledTableCell align="right">{}</StyledTableCell>
-                <StyledTableCell align="right">
-                  <button>
-                    <a href={href} target='_blank'>Download</a>
-                  </button>
-
-                </StyledTableCell>
-
-              </StyledTableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer> */}
-
-
       <table>
         <tr>
           <th>Title</th>
