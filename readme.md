@@ -1,6 +1,4 @@
-Here’s a detailed README file for your MERN Web Scrapper project:
 
----
 
 # MERN Web Scrapper
 
@@ -70,4 +68,3 @@ This project is licensed under the MIT License.
 
 ---
 
-You can customize this template according to any specific details or requirements for your project.
