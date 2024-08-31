@@ -76,8 +76,8 @@ function App() {
           // <Table2 />
         )}
       </header>
-      <footer>
-        <a className='bg-gray-300 p-4' target='_blank' href="https://github.com/THEYASHGAUR/MERN-Web-Scrapper">Github Link</a>
+      <footer className='m-10'>
+        <a className='bg-gray-300 p-4 mt-20' target='_blank' href="https://github.com/THEYASHGAUR/MERN-Web-Scrapper">Github Link</a>
       </footer>
     </div>
   );
