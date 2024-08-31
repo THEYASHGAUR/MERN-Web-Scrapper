@@ -39,3 +39,7 @@ app.get('/api/scrape', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+app.get("/", (req,res) => {
+  res.send("hello from server")
+})

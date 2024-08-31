@@ -14,12 +14,12 @@ function App() {
         const date = new Date();
         const fetchTime = date.toLocaleString(); // Get current date and time
         setLastFetchTime(fetchTime);
-        
+
         // Check if new data is different from current data
         if (JSON.stringify(data) !== JSON.stringify(data)) {
           showNotification(); // Show notification if data is updated
         }
-        
+
         setData(data);
         setLoading(false);
       })
@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className='text-blue-600'>Latest Updates from University</h1>
+        <h1 className='text-blue-600'>Latest Updates from IP University</h1>
         <p>Last fetched: {lastFetchTime}</p>
         {loading ? (
           <p>Loading...</p>
@@ -67,15 +67,18 @@ function App() {
             <h2 className='font-bold text-3xl m-5'>Examination Notices</h2>
             {data.map((item, index) => (
               <li key={index}>
-                
+
                 <DessertTable title={item.title} href={item.href} />
-                
+
               </li>
             ))}
           </ul>
           // <Table2 />
         )}
       </header>
+      <footer>
+        <a className='bg-gray-300 p-4' target='_blank' href="https://github.com/THEYASHGAUR/MERN-Web-Scrapper">Github Link</a>
+      </footer>
     </div>
   );
 }
