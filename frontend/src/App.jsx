@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import DessertTable from './components/DesertTable';
+import LoadingPage from './components/Loading';
 
 function App() {
   const [data, setData] = useState([]);
@@ -61,7 +62,7 @@ function App() {
         <h1 className='text-blue-600'>Latest Updates from IP University</h1>
         <p>Last fetched: {lastFetchTime}</p>
         {loading ? (
-          <p>Loading...</p>
+          <LoadingPage />
         ) : (
           <ul>
             <h2 className='font-bold text-3xl m-5'>Examination Notices</h2>
