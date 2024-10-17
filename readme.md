@@ -11,7 +11,7 @@ A web application that scrapes data from websites and displays it in a user-frie
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - **Data Scraping**: Scrapes data from specified URLs.
@@ -28,6 +28,11 @@ A web application that scrapes data from websites and displays it in a user-frie
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Web Scraping**: Cheerio.js or Puppeteer
+
+## Demo ScreenShots
+
+![alt text](image.png)
+This content Gets dynamically update everytime.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -67,8 +72,6 @@ A web application that scrapes data from websites and displays it in a user-frie
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a pull request.
 
-## License
-This project is licensed under the MIT License.
 
----
+
 
