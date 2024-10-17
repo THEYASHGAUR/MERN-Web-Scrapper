@@ -15,9 +15,13 @@ A web application that scrapes data from websites and displays it in a user-frie
 
 ## Features
 - **Data Scraping**: Scrapes data from specified URLs.
-- **Data Storage**: Stores scraped data in MongoDB.
 - **Responsive UI**: Displays data in a clean, professional UI.
 - **Error Handling**: Handles failed requests and displays user-friendly error messages.
+
+## Future Updates 
+- Extract more information from various pages of the University.
+- Improve data fetching time.
+- Impove UI.
 
 ## Technologies Used
 - **Frontend**: React.js, Tailwind CSS
